@@ -1,20 +1,108 @@
+header{
+   font-size: 18px;
+   margin-bottom: 40px;
+}
+
+.links{
+  list-style-type: none;
+  
+}
+
+.links li {
+  display : inline;
+  background-color : red;
+}
+
+.hero{
+    display: grid;
+     grid-template-columns : 30% 70%;
+}
+.navbar div {
+  display : inline;
+}
+.navbar div p {
+  display : inline;
+}
+
+.navbar  ul {
+  display : inline;
+
+}
+
+/*  */
 .habilidades {
-  margin-bottom: 0;
+ 
+ margin: 10px 20px;
+  display: grid;
+  grid-template-columns : auto auto auto;
+  border : 1px;
+
 }
 
+.habilidad {
+  border : 1px solid black;
+  margin: 10px 5px;
+  
+}
+ 
+.habilidad p{
+  font-size: 40px;
+  padding : 20px;
+  text-align: center;
+}
+
+.habilidad button{
+  font-size: 20px;
+  height: 40px;
+  width: 100%;
+}
+
+/*  */
+ 
 .proyectos {
-  margin-bottom: 0;
+  margin: 10px 20px;
+  display: grid;
+  grid-template-columns : auto auto auto auto;
+  border : 1px;
+}
+/* 
+.proyecto{
+
 }
 
+.tecnologias-proyecto{
+
+} */
+
+/*  */
+
+
+/*  */
 .formacion {
-  margin-bottom: 0;
+  display : grid;
+  grid-template-columns : auto auto;
+  border: 1px solid black;
+  margin: 10px 20px;
 }
 
+.detalle-formacion{
+
+}
+/*  */
+
+
+/*  */
 .experiencia {
   margin-bottom: 0;
+
 }
 
+/*  */
+
+/*  */
 .contactame {
-   margin-bottom: 0;
+   margin-top: 40px;
+   text-align : center;
 }
 
+/*  */
