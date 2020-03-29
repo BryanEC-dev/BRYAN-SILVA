@@ -7,7 +7,8 @@
     <link href="src/css/all.css">
     <link href="src/css/solid.css">
     <link href="src/css/brands.css">
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" media="(min-width: 800px)" href="app.css" />
+    <link rel="stylesheet"  media="(max-width: 800px)" href="app.resposive.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans+Condensed:300|Roboto&display=swap" rel="stylesheet">
     <title>Bryan Silva</title>
 </head>
@@ -15,10 +16,17 @@
     <!-- inicio del header -->
      <header class="header">
 
-        <nav class="header__navar">
-            <div class="header__navar--logo">
+        <nav class="header__navbar">
+            <div class="header__navar--brand">
                 Bryan Silva
             </div>
+            <!-- resposive -->
+                  
+            <div class="header__navar--options">
+                <i>menu</i>
+            </div>
+                
+            <!-- fin resposive -->
                           
             <ul class="header__navar--links">
                 <li>
@@ -35,15 +43,15 @@
                 <li>
                     <a href="#experiencia">Experiencia</a>
                 </li>
-                <li>
-                    <a href="#contactame">Contactame</a>
+                <li class=".header__navar--links--contactame">
+                    <a  href="#contactame">Contactame</a>
                 </li>
                 
             </ul>
         </nav>
     </header> 
 
-   
+
 
     <!-- fin del header -->
     <!-- inicio del hero -->
